@@ -9,24 +9,27 @@
 body{
     font-family: inter, sans-serif;
     /* background-image: linear-gradient(#ebf4f5,#b9dcf2); */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     height: 100%;
 }
 header{
-    padding: 10px 120px;
+    max-width: auto;
+    padding: 20px;
+    /* padding: 10px 120px; */
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 
 .head-img{
+    margin-top: 5px;
     margin-right: auto;
     font-size: 1.2em;
 }
 ul li{
     font-size: 1em;
     display: inline-block;
-    padding: 0px 10px;
+    padding: 0px 0px 0px 10px;
     list-style: none;
 }
 
@@ -113,10 +116,11 @@ h2{
 
 .form{
     max-width: 1000px;
+    min-width: 300px;
     margin: 10px auto;
     padding: 20px;
     text-align: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 3px;
 }
 .form-head{
@@ -132,6 +136,7 @@ form{
     gap: 20px;
 }
 input{
+    width: auto;
     margin-top: 5px;
     padding: 10px;
     border: 0.1px solid black;
@@ -169,4 +174,45 @@ footer .foot-img{
 
 footer p{
     margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        text-align: center;
+    }
+    header{
+        padding: 10px;
+    }
+    .hero-section{
+        margin: 10px auto;
+    }
+    .app-img{
+        max-width: 650px;
+    }
+    .company-img{
+        grid-template-columns: 200px 200px 200px;
+        justify-content: center;
+        align-items: center;
+    }
+    .Features{
+        grid-template-columns: 200px 200px 200px;
+        font-size: small;
+    }
+    .feature-img{
+        height: 150px;
+        width: 200px;
+    }
+    .form{
+        padding: 10px;
+        max-width: 600px;
+        gap: 5px;
+    }
+    input{
+        /* width: auto; */
+        padding: 5px;
+    }
+    .form-btn{
+        padding: 5px;
+        width: 75px;
+    }
 }
