@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Resume</title>
 </head>
-<body class="p-3 text-center mx-72 max-sm:mx-auto">
+
+<body class="m-5 p-5 text-center mx-72 max-sm:mx-auto shadow-xl rounded-lg">
     <section>
         <h1 class="p-5 text-3xl font-semibold text-center">Rajeev Krishna</h1>
-        <ul class="flex justify-center gap-5">
+        <ul class="flex justify-center gap-5 min-sm:flex-col">
             <li>📱:6262532002</li>
             <li>💻: <a href="https://rajeevkrishna.vercel.app/" target="_blank">rajeevkrishna</a></li>
             <li>📧:razhivkrishna@gmail.com</li>
@@ -20,13 +22,15 @@
     </section>
     <section class="about mt-10 text
     center">
-    <h1 class="text-left text-2xl font-semibold border-black border-b-2 ">About Me</h1>
-    <p class="text-left">
-        Hi 👋,
-        <span>
-            This is Rajeev Krishna, I am front-end Developer and a pre-final year Student at Medi-Caps Univeristy. I am proficient in front-end development. I am a quick learner and a team player. I am always ready to learn new things and ready to implement in work.
-        </span>
-    </p>
+        <h1 class="text-left text-2xl font-semibold border-black border-b-2 ">About Me</h1>
+        <p class="text-left">
+            Hi 👋,
+            <span>
+                This is Rajeev Krishna, I am front-end Developer and a pre-final year Student at Medi-Caps Univeristy. I
+                am proficient in front-end development. I am a quick learner and a team player. I am always ready to
+                learn new things and ready to implement in work.
+            </span>
+        </p>
     </section>
     <section class="py-5">
         <h2 class="text-left text-2xl font-semibold border-b-2 border-black">Education</h2>
@@ -48,17 +52,34 @@
                     </div>
                     <div class="edu-year">2006-2020</div>
                 </div>
+            </div>
+    </section>
+    <section class="skills py-5">
+        <h2 class="text-left text-2xl font-semibold border-b-2 border-black">Skills</h2>
+        <div class="skill-head text-left">
+            <h3>Languages:</h3>
+            <h3>Libraries/Frameworks</h3>
+            <h3>Version Control</h3>
+            <h3>Design Tools:</h3>
         </div>
     </section>
-    <section>
-        <h2 class="text-left text-2xl font-semibold border-b-2 border-black">Skills</h2>
-        <h3>Languages:</h3>
-        <h3>Libraries/Frameworks</h3>
-        <h3>Version Control</h3>
-        <h3>Design Tools:</h3>
-    </section>
-    <section>
-        <h2>Projects</h2>
+    <section class="projects">
+        <h2 class="text-left text-2xl font-semibold border-b-2 border-black">Projects</h2>
+        <div class="project-content text-left space-y-2">
+            <div class="calendar">
+                <h3><a href="https://radzhiv25.github.io/Projects/Calendar/index.html" class="font-bold">Calendar</a></h3>
+                <p>Teckstack: HTML ,CSS and Webflow</p>
+            </div>
+            <div class="resume">
+                <h3 class="font-bold">Resume</h3>
+                <p>Techstack: HTML and TailwindCSS</p>
+            </div>
+            <div class="portfolio">
+                <h3><a href="https://rajeevkrishna.vercel.app/" class="font-bold">Portfolio</a></h3>
+                <p>Techstack: Nextjs ,TailwindCSS and Vercel</p>
+            </div>
+        </div>
     </section>
 </body>
+
 </html>
