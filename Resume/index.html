@@ -9,15 +9,27 @@
     <title>Resume</title>
 </head>
 
-<body class="m-5 p-5 text-center mx-72 max-sm:mx-auto shadow-xl rounded-lg">
+<body class="m-5 p-5 text-center mx-72 max-w-sm:mx-auto shadow-2xl rounded-lg border">
     <section>
-        <h1 class="p-5 text-3xl font-semibold text-center">Rajeev Krishna</h1>
-        <ul class="flex justify-center gap-5 min-sm:flex-col">
+        <h1 class="pb-10 text-3xl font-semibold text-center">Rajeev Krishna</h1>
+        <ul class="grid grid-cols-3 place-items-center gap-5 min-sm:flex-col">
             <li>📱:6262532002</li>
             <li>💻: <a href="https://rajeevkrishna.vercel.app/" target="_blank">rajeevkrishna</a></li>
             <li>📧:razhivkrishna@gmail.com</li>
-            <li>Twitter</li>
-            <li>LinkedIn</li>
+            <li class="flex items-center">
+                <img src="./Images/twitter.png" alt="" class="w-6"> 
+                <a href="https://twitter.com/RadzhivDev">
+                    RadzhivDev</a>
+                </li>
+            <li class="flex items-center">
+                <img src="./Images/github.png" alt="" class="w-6">
+                <a href="https://www.linkedin.com/in/rajeevkrishna25/">
+                rajeevkrishna25</a>
+            </li>
+            <li class="flex items-center">
+                <img src="./Images/linkedin.png" alt="" class="w-6">
+                <a href="https://github.com/radzhiv25">radzhiv25</a>
+            </li>
         </ul>
     </section>
     <section class="about mt-10 text
@@ -47,20 +59,53 @@
                 <div class="edu flex justify-between">
                     <div class="edu-branch text-left">
                         <p>Secondary Education</p>
-                        <p class="mt-2">CBSE 12th - 88.8%</p>
+                        <p>CBSE 12th - 88.8%</p>
                         <p>CBSE 10th - 81.8%</p>
                     </div>
                     <div class="edu-year">2006-2020</div>
                 </div>
             </div>
     </section>
+    <section class="experience">
+        <div class="exp-content text-left space-y-2">
+            <h2 class="text-left text-2xl font-semibold border-b-2 border-black">Experience</h2>
+            <div class="gssoc">
+                <h3 class="font-bold">Girl Script Summer of Code</h3>
+                <p>Contributed in several front-end projects</p>
+                <ul>
+                    <li>
+                        <span class="font-semibold">In 2022-2023</span><p>It was based on mainly HTML, CSS and Javascript</p>
+                    </li>
+                    <li>
+                        <span class="font-semibold">In 2023-24</span><p>I have contributed in react and basic front-end based Projects</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="mlh">
+                <h3 class="font-bold">Major League Hacking</h3>
+                <p class="text-left">Participated in several hackathons and <span class="font-semibold">Global Hack Week</span> where I have attend several sessions and got to learn and also submitted daily challenges.</p>
+            </div>
+            <div class="hacktoberfest">
+                <h2 class="font-bold">Hacktoberfest'22</h2>
+                <p>Contributed in 4 projects and made 4 successful PR's and they got merged too.</p>
+            </div>
+        </div>
+    </section>
     <section class="skills py-5">
         <h2 class="text-left text-2xl font-semibold border-b-2 border-black">Skills</h2>
         <div class="skill-head text-left">
-            <h3>Languages:</h3>
-            <h3>Libraries/Frameworks</h3>
-            <h3>Version Control</h3>
-            <h3>Design Tools:</h3>
+            <h3>
+                <span class="font-semibold">Languages: </span>C, C++, Java, JavaScript
+            </h3>
+            <h3>
+                <span class="font-semibold">Libraries/Framework: </span>TailwindCSS, React, Next
+            </h3>
+            <h3>
+                <span class="font-semibold">Version Control: </span>Git, Github
+            </h3>
+            <h3>
+                <span class="font-semibold">Design Tools: </span>Figma, Webflow, Blender(Beginner), Adobe XD
+            </h3>
         </div>
     </section>
     <section class="projects">
@@ -71,7 +116,7 @@
                 <p>Teckstack: HTML ,CSS and Webflow</p>
             </div>
             <div class="resume">
-                <h3 class="font-bold">Resume</h3>
+                <h3 class="font-bold"><a href="https://radzhiv25.github.io/Projects/Resume/index.html">Resume</a></h3>
                 <p>Techstack: HTML and TailwindCSS</p>
             </div>
             <div class="portfolio">
