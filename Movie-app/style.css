@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #6699CC;
+}
+.navbar{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h1{
+    color: #fff;
+}
+.navbar input{
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+}
+.navbar button{
+    padding:  5px 10px;
+    border: none;
+    font-weight: bold;
+}
