@@ -29,7 +29,7 @@ header{
 ul li{
     font-size: 1em;
     display: inline-block;
-    padding: 0px 0px 0px 10px;
+    padding-left: 10px;
     list-style: none;
 }
 
@@ -183,36 +183,42 @@ footer p{
     header{
         padding: 10px;
     }
+    .head-img{
+        padding-left: 10px;
+    }
+    nav{
+        visibility: hidden;
+    }
     .hero-section{
         margin: 10px auto;
     }
     .app-img{
-        max-width: 650px;
+        max-width: 350px;
     }
     .company-img{
-        grid-template-columns: 200px 200px 200px;
+        grid-template-columns: auto auto;
         justify-content: center;
         align-items: center;
     }
     .Features{
-        grid-template-columns: 200px 200px 200px;
-        font-size: small;
+        grid-template-columns: auto auto;
+        font-size: 10px;
+        gap: 10px;
     }
     .feature-img{
-        height: 150px;
-        width: 200px;
+        height: auto;
+        width: 150px;
     }
     .form{
-        padding: 10px;
-        max-width: 600px;
-        gap: 5px;
+        flex-direction: column;
+    }
+    label{
+        text-align: left;
     }
     input{
-        /* width: auto; */
-        padding: 5px;
+        width: 40vh;
     }
     .form-btn{
-        padding: 5px;
-        width: 75px;
+        width: 100%;
     }
 }
