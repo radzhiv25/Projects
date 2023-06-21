@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400&family=Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background-color: #6699CC;
+    /* background-color: #6699CC; */
+    font-family: Poppins;
+    color: black;
 }
 .navbar{
     padding: 1em;
@@ -13,15 +17,24 @@ body{
     align-items: center;
 }
 .navbar h1{
-    color: #fff;
+    /* color: #fff; */
 }
 .navbar input{
     padding: 5px 10px;
-    border: none;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    outline: none;
     outline: none;
 }
 .navbar button{
+    width: max-content;
     padding:  5px 10px;
+    background-color: rgb(144, 210, 45);
+    color:white;
     border: none;
+    border-radius: 5px;
     font-weight: bold;
+}
+main{
+    padding: 1em;
 }
