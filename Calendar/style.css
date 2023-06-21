@@ -63,9 +63,11 @@ ul li{
     max-width: 800px;
 }
 .app-img{
-    margin: 0 auto;
+    margin: 10px auto;
     max-width: 1000px;
     border-radius: 10px;
+    border: 2px solid whitesmoke;
+    box-shadow: 2px 2px 2px gray;
 }
 
 .main-btn{
