@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+}
+.wrapper{
+    display: flex;
+}
+.left-cont{
+    padding: 1em;
+    font-size: 1.5em;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 3em;
+    height: 100vh; 
+}
+li{
+    list-style: none;
+}
+.right-cont{
+    width: 100%;
+    background-color: aquamarine;
+    padding: auto;
+    text-align: center;
+}
+.Home{
+    
+}

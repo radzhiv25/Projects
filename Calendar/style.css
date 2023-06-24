@@ -199,8 +199,6 @@ footer p{
     }
     .company-img{
         grid-template-columns: auto auto;
-        justify-content: center;
-        align-items: center;
     }
     .Features{
         grid-template-columns: auto auto;
